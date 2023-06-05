@@ -25,6 +25,7 @@ public class GitHubSolutions {
     $("[aria-label='Global']").$(byText("Solutions")).hover();
     // Navigate to Enterprise
     $$("ul [aria-labelledby='solutions-for-heading']").first().$("a").click();
+    // Check presence of "Build like the best" heading
     $("h1").shouldHave(text("Build like the best"));
 
 
